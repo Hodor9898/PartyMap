@@ -3,7 +3,9 @@
           package="com.example.PartyMap"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="19"/>
+    <uses-sdk android:minSdkVersion="18"
+              android:targetSdkVersion="19"/>
+
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="com.Hodor.PartyMap.MyActivity"
                   android:label="@string/app_name">
